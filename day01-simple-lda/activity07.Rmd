@@ -52,9 +52,7 @@ augment(lda_years, new_data = resume) %>%
   conf_mat(truth = received_callback, estimate = .pred_class)
 ```
 
-```{augment(lda_years, new_data = resume) %>%}
-  accuracy(truth = received_callback, estimate = .pred_class)
-```
+`{augment(lda_years, new_data = resume) %>%}   accuracy(truth = received_callback, estimate = .pred_class)`
 
 ## Challenge: Compare with logistic regression
 
